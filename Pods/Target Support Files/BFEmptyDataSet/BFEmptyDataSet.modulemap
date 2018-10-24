@@ -1,0 +1,6 @@
+framework module BFEmptyDataSet {
+  umbrella header "BFEmptyDataSet-umbrella.h"
+
+  export *
+  module * { export * }
+}

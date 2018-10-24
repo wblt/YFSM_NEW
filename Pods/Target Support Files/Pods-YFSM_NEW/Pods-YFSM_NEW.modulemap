@@ -1,0 +1,6 @@
+framework module Pods_YFSM_NEW {
+  umbrella header "Pods-YFSM_NEW-umbrella.h"
+
+  export *
+  module * { export * }
+}
