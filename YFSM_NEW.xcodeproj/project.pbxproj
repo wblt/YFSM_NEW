@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361EAFA521933E7700FE01F1 /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EAFA321933E7700FE01F1 /* ChartModel.m */; };
 		36A3C691217ECFB200EB65C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A3C690217ECFB200EB65C2 /* Assets.xcassets */; };
 		36A3C69F217ECFB200EB65C2 /* YFSM_NEWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C69E217ECFB200EB65C2 /* YFSM_NEWTests.swift */; };
 		36A3C6AA217ECFB200EB65C2 /* YFSM_NEWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C6A9217ECFB200EB65C2 /* YFSM_NEWUITests.swift */; };
@@ -62,7 +63,6 @@
 		36A3C73A2180049C00EB65C2 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C7272180049C00EB65C2 /* PlaceHolderTextView.swift */; };
 		36A3C73B2180049C00EB65C2 /* Reflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C7292180049C00EB65C2 /* Reflect.swift */; };
 		36A3C73C2180049C00EB65C2 /* FTPopOverMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C72C2180049C00EB65C2 /* FTPopOverMenu.m */; };
-		36A3C745218004B800EB65C2 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C73E218004B800EB65C2 /* ChartModel.swift */; };
 		36A3C746218004B800EB65C2 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C73F218004B800EB65C2 /* BaseModel.swift */; };
 		36A3C747218004B800EB65C2 /* FAQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C741218004B800EB65C2 /* FAQModel.swift */; };
 		36A3C748218004B800EB65C2 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C742218004B800EB65C2 /* StudentModel.swift */; };
@@ -143,6 +143,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361EAFA321933E7700FE01F1 /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		361EAFA421933E7700FE01F1 /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
 		36A3C686217ECFB100EB65C2 /* YFSM_NEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFSM_NEW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A3C690217ECFB200EB65C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A3C695217ECFB200EB65C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -216,7 +218,6 @@
 		36A3C7292180049C00EB65C2 /* Reflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflect.swift; sourceTree = "<group>"; };
 		36A3C72B2180049C00EB65C2 /* FTPopOverMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPopOverMenu.h; sourceTree = "<group>"; };
 		36A3C72C2180049C00EB65C2 /* FTPopOverMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPopOverMenu.m; sourceTree = "<group>"; };
-		36A3C73E218004B800EB65C2 /* ChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
 		36A3C73F218004B800EB65C2 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		36A3C741218004B800EB65C2 /* FAQModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQModel.swift; sourceTree = "<group>"; };
 		36A3C742218004B800EB65C2 /* StudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
@@ -586,7 +587,8 @@
 		36A3C73D218004B800EB65C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				36A3C73E218004B800EB65C2 /* ChartModel.swift */,
+				361EAFA421933E7700FE01F1 /* ChartModel.h */,
+				361EAFA321933E7700FE01F1 /* ChartModel.m */,
 				36A3C73F218004B800EB65C2 /* BaseModel.swift */,
 				36A3C740218004B800EB65C2 /* Mine */,
 				36A3C743218004B800EB65C2 /* RootModel.swift */,
@@ -1063,6 +1065,7 @@
 				36A3C796218004ED00EB65C2 /* Dictionary+AddOn.swift in Sources */,
 				36A3C7B82180053300EB65C2 /* Utility.swift in Sources */,
 				36A3C72E2180049C00EB65C2 /* BabyOptions.m in Sources */,
+				361EAFA521933E7700FE01F1 /* ChartModel.m in Sources */,
 				36A3C795218004ED00EB65C2 /* Date+AddOn.swift in Sources */,
 				36A3C74A218004B800EB65C2 /* ErrorModel.swift in Sources */,
 				36A3C7332180049C00EB65C2 /* BabyRhythm.m in Sources */,
@@ -1096,7 +1099,6 @@
 				36A3C7A92180050700EB65C2 /* UDManager.swift in Sources */,
 				36A3C749218004B800EB65C2 /* RootModel.swift in Sources */,
 				36A3C72D2180049C00EB65C2 /* BabyToy.m in Sources */,
-				36A3C745218004B800EB65C2 /* ChartModel.swift in Sources */,
 				36A3C78D218004ED00EB65C2 /* UIApplication+AddOn.swift in Sources */,
 				36A3C76F218004D300EB65C2 /* BubbleAnimation.m in Sources */,
 				36A3C7302180049C00EB65C2 /* BabyPeripheralManager.m in Sources */,
@@ -1296,7 +1298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Alvin.YFSMM2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "99f4d5a5-116d-4297-9350-518a64462bb9";
+				PROVISIONING_PROFILE = "cd9a3c79-5763-4972-8b64-b89f650b2d7c";
 				PROVISIONING_PROFILE_SPECIFIER = mianmo_dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/YFSM_NEW/YFSM_NEW-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -1309,7 +1311,7 @@
 			baseConfigurationReference = 98E3E7D43915F737DF8FAEC8 /* Pods-YFSM_NEW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = HR6HGC9SU2;
 				INFOPLIST_FILE = YFSM_NEW/Info.plist;
@@ -1320,8 +1322,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Alvin.YFSMM2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "86f3c576-a95f-439b-8bf4-b8e52b58d925";
-				PROVISIONING_PROFILE_SPECIFIER = YFSMM2_dis;
+				PROVISIONING_PROFILE = "cd9a3c79-5763-4972-8b64-b89f650b2d7c";
+				PROVISIONING_PROFILE_SPECIFIER = mianmo_dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/YFSM_NEW/YFSM_NEW-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;

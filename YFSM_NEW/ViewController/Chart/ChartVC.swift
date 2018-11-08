@@ -26,7 +26,7 @@ class ChartVC: BaseVC {
         var water2Array:[String] = []
         for model in modelArry {
             var dateStr = "\(model.date)".substringFromIndex(4)!
-            let stingIndex = dateStr.characters.index(dateStr.startIndex, offsetBy: 2)
+            let stingIndex = dateStr.index(dateStr.startIndex, offsetBy: 2)
             dateStr.insert("-", at: stingIndex)
             xTitles.append(dateStr)
             oil1Array.append("\(model.oil1)")

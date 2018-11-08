@@ -9,3 +9,4 @@
 #import "JHCustomMenu.h"
 #import "BubbleAnimation.h"
 #import "NetWork.h"
+#import "ChartModel.h"

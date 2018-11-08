@@ -285,6 +285,7 @@ class HomeVC: BaseVC,JHCustomMenuDelegate,SearchDeviceViewDelegate,AVAudioPlayer
         
         
         
+        
         let model2 = ChartModel()
         model2.date = 20170709
         model2.oil1 = 55
@@ -666,7 +667,7 @@ class HomeVC: BaseVC,JHCustomMenuDelegate,SearchDeviceViewDelegate,AVAudioPlayer
         
             bubble.start_bubbleAnimation();
             let date = (Date.currentTime().substringToIndex(10)!.replacingOccurrences(of: "-", with: "") as NSString).integerValue
-            let model = ChartModel()
+            let model = ChartModel.init();
             model.oil1 = self.youfenValue
             model.water1 = self.shuifenValue
             model.date = date
@@ -677,7 +678,8 @@ class HomeVC: BaseVC,JHCustomMenuDelegate,SearchDeviceViewDelegate,AVAudioPlayer
             
             
             self.startLabel.text = "运行中"
-             model.saveToDB()
+            let flag = model.saveToDB()
+            print("插入标志：+==="+flag);
         }else if daojishi != "00:00" && fenzhong < 10  {
             
         
