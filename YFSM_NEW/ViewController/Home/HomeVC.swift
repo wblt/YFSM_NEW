@@ -282,10 +282,7 @@ class HomeVC: BaseVC,JHCustomMenuDelegate,SearchDeviceViewDelegate,AVAudioPlayer
         model.water2 = 60
         model.step = 2
         model.saveToDB()
-        
-        
-        
-        
+    
         let model2 = ChartModel()
         model2.date = 20170709
         model2.oil1 = 55
@@ -294,7 +291,6 @@ class HomeVC: BaseVC,JHCustomMenuDelegate,SearchDeviceViewDelegate,AVAudioPlayer
         model2.water2 = 65
         model2.step = 2
         model2.saveToDB()
-        
         
         let model3 = ChartModel()
         model3.date = 20170710
